@@ -54,6 +54,8 @@ Português
  
  git branch -d subMenu
  git push origin --delete subMenu
+ 
+ git reset [modo] [arquivo | commit]
 
 ```
 
@@ -97,6 +99,8 @@ English
  
  git branch -d subMenu
  git push origin --delete subMenu
+ 
+ git reset [mode] [file | commit]
 
 ```
 
@@ -319,6 +323,12 @@ git revert <NumeroHashOuId>
 ```
 git cherry-pick --continue
 git cherry-pick --abort
+
+```
+#### Desfazer mudanças no projeto após commits serem executados
+
+```
+git reset [modo] [arquivo | commit] 
 
 ```
 
@@ -544,3 +554,13 @@ git cherry-pick --abort
 
 ```
 
+#### Undo project changes after commits are performed
+
+```
+git reset [mode] [file | commit]
+
+```
+
+
+#### Referencia link da documentação / References link documentation
+<a href="https://git-scm.com/docs"><img src="https://img.shields.io/badge/Git-330F63?style=for-the-badge&logo=git&logoColor=white" alt="Git"/></a>
